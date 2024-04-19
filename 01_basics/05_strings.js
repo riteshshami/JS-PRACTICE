@@ -9,7 +9,7 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 const gameName = new String('hiteshh-hc-youtube-javascript')
 
 console.log(gameName[0]);
-console.log(gameName.__proto__);
+console.log("Prototype", gameName.__proto__);
 
 console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
@@ -20,10 +20,10 @@ const newString = gameName.substring(2, 5);
 console.log(newString);
 
 // slice mdn
-const anotherString = gameName.slice(-7, 5);
-console.log(anotherString);
+const anotherString = gameName.slice(5, -7);
+console.log("Focus here", anotherString);
 
-const newString1 = " hitesh ";
+const newString1 = " hitesh \n";
 console.log(newString1);
 console.log(newString1.trim());
 

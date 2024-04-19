@@ -1,4 +1,4 @@
-// #1 Primitive
+// #1 Pass by value (Primitive)
 
 // 7 types: String, Number, Boolean, null, undefined, BigInt, Symbol
 
@@ -18,7 +18,7 @@ const bigNumber = 1245467453478698709089n
 
 
 
-//  #2 Reference (Non-Primitive)
+//  #2 Pass by Reference (Non-Primitive)
 
 // Array, Objects, Functions
 
@@ -59,3 +59,20 @@ user2.email = "riteshshami@gmail.com"
 
 console.log(user2.email);
 console.log(user1.email);
+
+const user5 = {
+    email: "new@gmail.com",
+    pass: "11111"
+}
+
+const user6 = {
+    email: "new@gmail.com",
+    pass: "11111"
+};
+
+// user6.email = 'old@gmail.com'
+
+
+console.log(user5);
+console.log(user6 == user5);
+

@@ -13,6 +13,6 @@ console.log(undefined >= 0);
 
 // avoid the above types of comparisons
 
-// === 
+// === check the value and type
 
 console.log("2" === 2);
