@@ -18,8 +18,9 @@ const an_array = another_array.flat(Infinity);
 // console.log(an_array);
 
 
-console.log(Array.isArray("Ritesh"));
+// console.log(Array.isArray("Ritesh"));
 console.log(Array.from({name: "Hitesh"})); // interesting case
+// use only iterables to create arrays dictionary cannot do this from this method.
 
 let score1 = 100;
 let score2 = 200;

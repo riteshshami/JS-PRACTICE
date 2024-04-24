@@ -1,7 +1,7 @@
 const myObject = {
     js: 'JavaScript',
     cpp: 'C++',
-    rb: 'Swift',
+    rb: 'Ruby',
     swift: 'swift by apple'
 }
 
@@ -11,9 +11,12 @@ const myObject = {
 
 const programming = ["js", "cpp", "py", "c", "java"];
 
-// for(const key in programming){
-//     console.log(key);
+// for(const value of programming){
+//     console.log(value);
 // }
 
 // ---> We cannot iterate over map
+
+// for of ===> to iterate over arrays
+// for in ===> to iterate over dictionary
 

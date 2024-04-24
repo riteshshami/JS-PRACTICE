@@ -5,13 +5,13 @@
 //     index = index + 2;
 // }
 
-// let myArr = ['flash', 'batman', 'superman'];
+let myArr = ['flash', 'batman', 'superman'];
 
-// let arr = 0;
-// while (arr < myArr.length){
-//     console.log(`Value is ${myArr[arr]}`);
-//     arr++;
-// }
+let arr = 0;
+while (arr < myArr.length){
+    console.log(`Value is ${myArr[arr]}`);
+    arr++;
+}
 
 let score = 11;
 

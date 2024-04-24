@@ -31,7 +31,8 @@
 
 const myObject = {
     'game1': 'NFS',
-    'game2': 'Spiderman'
+    'game2': 'Spiderman',
+    'game3': 'Hulk'
 }
 
 // for(const [key, value] of myObject){

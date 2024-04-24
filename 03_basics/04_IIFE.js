@@ -8,7 +8,11 @@
 ((name) => {
     // unnamed iife
     console.log(`DB CONNECTED AGAIN ${name}`)
-})('ritesh')
+})('ritesh');
+
+((book) => {
+    console.log(`${book}`)
+})('Elaquant JavaScript');
 
 // global scope ke pollution ko avoid karne ke liye IIFE ka use karo
 

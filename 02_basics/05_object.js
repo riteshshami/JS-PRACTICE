@@ -4,9 +4,11 @@ const course = {
     courseInstructor: "Hitesh"
 }
 
-const {courseInstructor: instructor} = course;
+const {courseInstructor: instructor, price} = course;
+
 
 console.log(instructor);
+console.log(price);
 
 
 // APIs

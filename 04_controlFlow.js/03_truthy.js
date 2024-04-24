@@ -30,13 +30,14 @@ let val1;
 // val1 = null ?? 10
 // val1 = undefined ?? 15
 val1 = null ?? 10 ?? 15
+val1 = undefined ?? null
 
 
-console.log(val1);
+console.log("Value is", val1);
 
 // Ternanry operator
 
 // condition ? true : false;
 
-const ice = 100;
-ice >= 20 ? console.log("80") : console.log("85");
+// const ice = 100;
+// ice >= 20 ? console.log("80") : console.log("85");

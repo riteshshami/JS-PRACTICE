@@ -15,9 +15,9 @@ console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
-const newString = gameName.substring(2, 5);
+const newString = gameName.substring(1, 5);
 
-console.log(newString);
+console.log("New String", newString);
 
 // slice mdn
 const anotherString = gameName.slice(5, -7);

@@ -6,19 +6,15 @@
 //         break;
 // }
 
-const month = "march";
+const month = 5;
 
-// switch (month) {
-//   case 1:
-//     console.log("January");
-//     break;
-//   case 2:
-//     console.log("Febuary");
-//     break;
-//   case "march":
-//     console.log("March")
-//     break;
-//   default: 
-//     console.log("None")
-//     break;
-// }
+switch (month) {
+  case 1:
+  case 2:
+  case "march":
+    console.log("March")
+    break;
+  default: 
+    console.log("None")
+    break;
+}

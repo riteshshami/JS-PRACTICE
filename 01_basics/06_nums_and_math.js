@@ -29,7 +29,7 @@ const hundreds = 1000000
 // console.log(Math.random());
 // console.log(Math.round(Math.random()*10) + 1);
 
-const min = 10;
-const max = 20;
+const min = 100;
+const max = 1000;
 
-// console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);

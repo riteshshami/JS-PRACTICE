@@ -24,10 +24,12 @@ const user = {
 
 // const chai = () => {
 //     let username = "Ritesh"
-//     console.log(this);
+//     console.log(this.username);
 // }
 
 // chai();
+
+// this should be associated with the object to work 
 
 
 // const addTwo = (num1, num2) => {

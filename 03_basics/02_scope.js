@@ -3,29 +3,29 @@
 
 let a = 300;
 
-if (true) {
-    let a = 10;
-    const b = 20;
-    // console.log("Inner:", a);
-    // var c = 30;
-}
+// if (true) {
+//     let a = 10;
+//     const b = 20;
+//     console.log("Inner:", a);
+//     var c = 30;
+// }
 
 // console.log(a);
 // console.log(b);
 // console.log(c);
 
 
-function one(){
-    const username = "Ritesh"
+// function one(){
+//     const username = "Ritesh"
 
-    function two(){
-        const website = "Youtube"
-        console.log(username);
-    }
-    // console.log(website);
+//     function two(){
+//         const website = "Youtube"
+//         console.log(username);
+//     }
+//     console.log(website);
 
-    // two()
-}
+//     two()
+// }
 
 // one()
 
@@ -55,3 +55,5 @@ addTwo(5);
 const addTwo = function(num){
     return num + 2
 }
+
+// Function which are wrapped in an binding do not hoist

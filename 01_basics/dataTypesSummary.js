@@ -48,12 +48,12 @@ anotherName = "chaiAurCode";
 console.log(anotherName);
 // console.log(myYoutubeName);
 
-let user1 = {
+const user1 = {
     email: "user@google.com",
     user: "Ritesh",
 }
 
-let user2 = user1;
+const user2 = user1;
 
 user2.email = "riteshshami@gmail.com"
 
@@ -75,4 +75,5 @@ const user6 = {
 
 console.log(user5);
 console.log(user6 == user5);
+console.log(user2 == user1);
 

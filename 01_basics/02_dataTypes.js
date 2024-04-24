@@ -23,7 +23,7 @@ let state;
 
 // object
 
-console.log(typeof null);
+console.log("Type of null", typeof null);
 console.log(typeof undefined);
 console.log(NaN === NaN);
 

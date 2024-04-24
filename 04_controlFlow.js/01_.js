@@ -44,3 +44,7 @@ if(isUserLoggedIn && debitCard && 2==3){
 if(loggedInFromEmail || loggedInFromGoogle){
     console.log("User logged in");
 }
+
+if(loggedInFromEmail || loggedInFromGoogle){
+    console.log("Logged in");
+}
