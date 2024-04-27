@@ -21,8 +21,8 @@ Array.prototype.heyRitesh = function(){
     console.log(`Hitesh say hello`);
 }
 
-// myHeros.hitesh();
-// myHeros.heyRitesh();
+myHeros.hitesh();
+myHeros.heyRitesh();
 // heroPower.heyRitesh();
 
 // Inheritance

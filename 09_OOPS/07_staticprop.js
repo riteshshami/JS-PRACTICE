@@ -5,6 +5,7 @@ class User {
 
     logMe(){
         console.log(`Username : ${this.username}`);
+        return null;
     }
 
     createId(){
@@ -13,7 +14,7 @@ class User {
 }
 
 const Hitesh = new User("Hitesh");
-// console.log(Hitesh.createId());
+console.log(Hitesh.createId());
 
 class Teacher extends User{
     constructor(username, email){
@@ -23,7 +24,7 @@ class Teacher extends User{
 }
 
 const iphone = new Teacher("iphone", "ritesh@google.com")
-console.log(iphone.createId())
+console.log(iphone.logMe())
 
 
 // https://witeboard.com/bbb81e10-03be-11ef-bfa2-11ee57063a11

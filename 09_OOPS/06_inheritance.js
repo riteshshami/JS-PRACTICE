@@ -28,4 +28,4 @@ const masalaChai = new User("masalachai")
 
 masalaChai.logMe();
 
-console.log(chai instanceof Teacher);
+console.log(chai instanceof User);

@@ -10,7 +10,7 @@ class User {
     }
 
     encryptPassword(){
-        return `${this.password}abc`
+        return `${this.password}abc123`
     }
 
     usernameCaptilize(){
@@ -25,22 +25,22 @@ console.log(chai.usernameCaptilize());
 
 // behind the scene
 
-function User(username, email, password){
-    this.username = username;
-    this.email = email;
-    this.password = password;
-}
+// function User(username, email, password){
+//     this.username = username;
+//     this.email = email;
+//     this.password = password;
+// }
 
-User.prototype.encryptPassword = function(){
-    return `${this.password}abc`
-}
+// User.prototype.encryptPassword = function(){
+//     return `${this.password}abc`
+// }
 
-User.prototype.usernameCaptilize = function(){
-    return `${this.username.toUpperCase()}`
-}
+// User.prototype.usernameCaptilize = function(){
+//     return `${this.username.toUpperCase()}`
+// }
 
-const tea = new User("chai", "chai@google.com", "123")
+// const tea = new User("chai", "chai@google.com", "123")
 
-console.log(tea.encryptPassword());
-console.log(tea.usernameCaptilize());
+// console.log(tea.encryptPassword());
+// console.log(tea.usernameCaptilize());
 

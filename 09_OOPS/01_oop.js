@@ -44,8 +44,8 @@ function User(username, loginCount, isLoggedIn){
 
 const user1 = new User('hitesh', 2, true)
 const user2 = new User('chai', 2, true)
-console.log(user1.constructor);
-// console.log(user2);
+console.log(user1);
+console.log(user2);
 
 // when we use "new" keyword 
 // 1 - New Object create

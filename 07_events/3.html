@@ -27,25 +27,25 @@
     }
 
 
-    document.querySelector('#start').addEventListener('click', function(){
-        intervalId = setInterval(sayHi, 1000)
-    });
-
-
-    document.querySelector('#stop').addEventListener('click', function(){
-        clearInterval(intervalId);
-    });
-
-    // document.getElementById('start').addEventListener('click', () => {
-    //     intervalId = setInterval(() => {
-    //         console.log('Interval is running...');
-    //     }, 1000);
+    // document.querySelector('#start').addEventListener('click', function(){
+    //     intervalId = setInterval(sayHi, 1000)
     // });
 
-    // document.getElementById('stop').addEventListener('click', () => {
+
+    // document.querySelector('#stop').addEventListener('click', function(){
     //     clearInterval(intervalId);
-    //     console.log('Interval stopped.');
     // });
+
+    document.getElementById('start').addEventListener('click', () => {
+        intervalId = setInterval(() => {
+            console.log('Interval is running...');
+        }, 1000);
+    });
+
+    document.getElementById('stop').addEventListener('click', () => {
+        clearInterval(intervalId);
+        console.log('Interval stopped.');
+    });
 
 
 

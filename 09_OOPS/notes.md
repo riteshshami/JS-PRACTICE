@@ -21,4 +21,4 @@ Object literal
 - Encapsulation
 - Inheritance
 - Polymorphism 
-#### (Ask ChatGPT)
+#### (Ask ChatGPT-3.5)
