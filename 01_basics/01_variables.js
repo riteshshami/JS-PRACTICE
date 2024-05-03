@@ -12,7 +12,7 @@ let accountState;
 
 accountEmail = "hc@hc.com"
 accountPassword = "112233"
-accountCity = "Agra"
+// accountCity = "Agra"
 
 console.log(accountId);
 
