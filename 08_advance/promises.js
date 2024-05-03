@@ -88,12 +88,12 @@
 
 // getAllUsers();
 
-// fetch('https://jsonplaceholder.typicode.com/users')
-// .then((response) => {
-//     return response.json()
-// })
-// .then((data)=>console.log(data))
-// .catch((error)=>console.log(error))
-// .finally()
+fetch('https://jsonplaceholder.typicode.com/users')
+.then((response) => {
+    return response.json()
+})
+.then((data)=>console.log(data))
+.catch((error)=>console.log(error))
+.finally()
 
 // https://witeboard.com/e8310980-038b-11ef-8f17-6db9ff0a766d

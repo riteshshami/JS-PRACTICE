@@ -27,18 +27,18 @@
     }
 
 
-    // document.querySelector('#start').addEventListener('click', function(){
-    //     intervalId = setInterval(sayHi, 1000)
-    // });
+    document.querySelector('#start').addEventListener('click', function(){
+        intervalId = setInterval(sayHi, 1000)
+    });
 
 
-    // document.querySelector('#stop').addEventListener('click', function(){
-    //     clearInterval(intervalId);
-    // });
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearInterval(intervalId);
+    });
 
     document.getElementById('start').addEventListener('click', () => {
         intervalId = setInterval(() => {
-            console.log('Interval is running...');
+            console.log('Interval is up and running...');
         }, 1000);
     });
 

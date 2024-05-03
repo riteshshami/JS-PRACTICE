@@ -35,7 +35,7 @@ const myObject = {
     'game3': 'Hulk'
 }
 
-// for(const [key, value] of myObject){
-//     console.log(key, ':-', value);       --------------------> This will not work
-// }
+for(const [key, value] of myObject){
+    console.log(key, ':-', value);     
+}
 

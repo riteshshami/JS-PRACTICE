@@ -15,13 +15,14 @@ console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
-const newString = gameName.substring(1, 5);
+const newString = gameName.substring(5, 1);
 
 console.log("New String", newString);
 
 // slice mdn
-const anotherString = gameName.slice(5, -7);
+const anotherString = gameName.splice(2, 4);
 console.log("Focus here", anotherString);
+console.log(gameName);
 
 const newString1 = " hitesh \n";
 console.log(newString1);

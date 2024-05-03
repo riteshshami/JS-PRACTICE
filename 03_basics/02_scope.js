@@ -22,21 +22,21 @@ let a = 300;
 //         const website = "Youtube"
 //         console.log(username);
 //     }
-//     console.log(website);
+//     // console.log(website);
 
 //     two()
 // }
 
 // one()
 
-if (true) {
-    const username = "hitesh"
-    if(username === "hitesh"){
-        const website = " youtube"
-        // console.log(username + website);
-    }
-    // console.log(website);
-}
+// if (true) {
+//     const username = "hitesh"
+//     if(username === "hitesh"){
+//         const website = " youtube"
+//         console.log(username + website);
+//     }
+//     // console.log(website);
+// }
 
 // console.log(username);
 
@@ -51,9 +51,9 @@ function addone(num){
 
 
 
-addTwo(5);
-const addTwo = function(num){
-    return num + 2
-}
+// addTwo(5);
+// const addTwo = function(num){
+//     return num + 2
+// }
 
 // Function which are wrapped in an binding do not hoist

@@ -17,6 +17,8 @@ const myArr2 = new Array(1, 2, 3, 4, 5);
 myArr.unshift(9)
 myArr.shift();
 
+console.log("Here here", myArr);
+
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));
 
